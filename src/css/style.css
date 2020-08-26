@@ -1,0 +1,87 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Ubuntu", sans-serif;
+    
+    color: rgb(251, 227, 227);
+  }
+
+  .app{
+   
+    background-image: url('../images/app.jpg');
+    margin-top: 0px;
+    height: 100vh;
+    
+    /* background-position:  center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.4 ease-out;
+    
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.52),
+        rgba(0, 0, 0, 0.73),
+      );
+   
+  }
+
+  .app .cold {
+    background-image: url('../images/cold.jpg');
+  }
+
+.app .hot {
+    background-image: url('../images/hot.jpg');
+  }
+
+.back{
+  height: 100vh;
+    
+  background: linear-gradient(
+    to bottom,    
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.7));
+   
+}
+  
+.my-form:focus{
+  background-color: rgb(255, 255, 255)
+}
+
+.location-box{
+    font-size: 25px;
+    text-shadow: rgba(54, 28, 28, 0.73);
+}
+
+.location-box .date{
+   font-size: 15px;
+}
+
+.weather-box .temp{
+    
+    background-color: rgb(255, 255, 255, 0.2);
+    display: inline-block;
+    margin: 30px auto;
+    padding: 25px 35px;
+    border-radius: 16px;
+
+    color: #fff;
+    
+    font-size: 40px;
+    font-weight: 600;
+
+    text-shadow: 3px 9px rgba(50, 50, 70, 0.5);
+    text-align: center;
+
+    box-shadow: 3px 4px rgba(50, 50, 70, 0.5);
+
+}
+.weather-box .season{
+   font-size: 30px;
+   font-weight: 600;
+   text-shadow: rgba(54, 28, 28, 0.73);
+}
+ 
